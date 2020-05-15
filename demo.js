@@ -30,33 +30,33 @@ function addPolygonToMap(map) {
       }
     })
   );
-	const lineString = new H.geo.LineString();
-			lineString.pushPoint({ lng: 73.17008888612014, lat : 19.19117165466513});
-			lineString.pushPoint({ lng: 73.17372248700617, lat : 19.19466986256505});
-			lineString.pushPoint({ lng: 73.1773813158182,  lat : 19.19696787054239});
-			lineString.pushPoint({ lng: 73.17644067933634, lat : 19.20107873535372});
-			lineString.pushPoint({ lng: 73.17368412968537, lat : 19.21084992271893});
-			lineString.pushPoint({ lng: 73.17411261837742, lat : 19.21756177648583});
-			lineString.pushPoint({ lng: 73.17638521334246, lat : 19.22590070439105});
-			lineString.pushPoint({ lng: 73.18384623807655, lat : 19.23053520968023});
-			lineString.pushPoint({ lng: 73.18845865507669, lat : 19.23810065815481});
-			lineString.pushPoint({ lng: 73.1882834596837,  lat : 19.24598502757109});
-			lineString.pushPoint({ lng: 73.18759331544624, lat : 19.25271680463764});
-			lineString.pushPoint({ lng: 73.18188568854302, lat : 19.25649720603959});
-			lineString.pushPoint({ lng: 73.17001443265488, lat : 19.25004786318296});
-			lineString.pushPoint({ lng: 73.15705036633581, lat : 19.25830445921833});
-			lineString.pushPoint({ lng: 73.15061485289306, lat : 19.24031494213543});
-			lineString.pushPoint({ lng: 73.1516089711307,  lat : 19.23695982019543});
-			lineString.pushPoint({ lng: 73.14690166257378, lat : 19.23617926845481});
-			lineString.pushPoint({ lng: 73.14529220875778, lat : 19.23201906169606});
-			lineString.pushPoint({ lng: 73.15113997227003, lat : 19.21780822467171});
-			lineString.pushPoint({ lng: 73.14761789976508, lat : 19.21551065792998});
-			lineString.pushPoint({ lng: 73.14756865388853, lat : 19.20307572142334});
-			lineString.pushPoint({ lng: 73.16150654227033, lat : 19.1886757506543});
-			lineString.pushPoint({ lng: 73.17008888612014, lat : 19.19117165466513});
+	const lineString1 = new H.geo.LineString();
+			lineString1.pushPoint({ lng: 73.17008888612014, lat : 19.19117165466513});
+			lineString1.pushPoint({ lng: 73.17372248700617, lat : 19.19466986256505});
+			lineString1.pushPoint({ lng: 73.1773813158182,  lat : 19.19696787054239});
+			lineString1.pushPoint({ lng: 73.17644067933634, lat : 19.20107873535372});
+			lineString1.pushPoint({ lng: 73.17368412968537, lat : 19.21084992271893});
+			lineString1.pushPoint({ lng: 73.17411261837742, lat : 19.21756177648583});
+			lineString1.pushPoint({ lng: 73.17638521334246, lat : 19.22590070439105});
+			lineString1.pushPoint({ lng: 73.18384623807655, lat : 19.23053520968023});
+			lineString1.pushPoint({ lng: 73.18845865507669, lat : 19.23810065815481});
+			lineString1.pushPoint({ lng: 73.1882834596837,  lat : 19.24598502757109});
+			lineString1.pushPoint({ lng: 73.18759331544624, lat : 19.25271680463764});
+			lineString1.pushPoint({ lng: 73.18188568854302, lat : 19.25649720603959});
+			lineString1.pushPoint({ lng: 73.17001443265488, lat : 19.25004786318296});
+			lineString1.pushPoint({ lng: 73.15705036633581, lat : 19.25830445921833});
+			lineString1.pushPoint({ lng: 73.15061485289306, lat : 19.24031494213543});
+			lineString1.pushPoint({ lng: 73.1516089711307,  lat : 19.23695982019543});
+			lineString1.pushPoint({ lng: 73.14690166257378, lat : 19.23617926845481});
+			lineString1.pushPoint({ lng: 73.14529220875778, lat : 19.23201906169606});
+			lineString1.pushPoint({ lng: 73.15113997227003, lat : 19.21780822467171});
+			lineString1.pushPoint({ lng: 73.14761789976508, lat : 19.21551065792998});
+			lineString1.pushPoint({ lng: 73.14756865388853, lat : 19.20307572142334});
+			lineString1.pushPoint({ lng: 73.16150654227033, lat : 19.1886757506543});
+			lineString1.pushPoint({ lng: 73.17008888612014, lat : 19.19117165466513});
 
   map.addObject(
-    new H.map.Polygon(lineString, {
+    new H.map.Polygon(lineString1, {
       style: {
         fillColor: 'rgba(255, 255, 255, 0.0)',
         strokeColor: 'red',
