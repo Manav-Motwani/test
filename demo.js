@@ -45,6 +45,20 @@ function addPolygonToMap(map) {
 			lineStringu.pushPoint({ lng: 73.14756865388853, lat : 19.20307572142334});
 			lineStringu.pushPoint({ lng: 73.16150654227033, lat : 19.1886757506543});
 			lineStringu.pushPoint({ lng: 73.17008888612014, lat : 19.19117165466513});
+	
+	const lineString2 = new H.geo.LineString();
+			lineString2.pushPoint({ lng: 73.15202730276384, lat : 19.22858220035955});
+			lineString2.pushPoint({ lng: 73.15335771346349, lat : 19.22947700934117});
+			lineString2.pushPoint({ lng: 73.15359873674225, lat : 19.22949841242217});
+			lineString2.pushPoint({ lng: 73.15368270767917, lat : 19.23064425334803});
+			lineString2.pushPoint({ lng: 73.14803762481465, lat : 19.23450011419495});
+			lineString2.pushPoint({ lng: 73.1477952693922,  lat : 19.23343605797839});
+			lineString2.pushPoint({ lng: 73.1479276148663,  lat : 19.23300593931001});
+			lineString2.pushPoint({ lng: 73.14833420978745, lat : 19.23218871645907});
+			lineString2.pushPoint({ lng: 73.14831254754871, lat : 19.23171752441295});
+			lineString2.pushPoint({ lng: 73.15025055444204, lat : 19.22892292518506});
+			lineString2.pushPoint({ lng: 73.15202730276384, lat : 19.22858220035955});
+	
 
   map.addObject(
     
@@ -60,6 +74,17 @@ function addPolygonToMap(map) {
   
   map.addObject(
   new H.map.Polygon(lineString, {
+      style: {
+        fillColor: 'rgba(255, 255, 255, 0.0)',
+        strokeColor: 'red',
+        lineWidth: 5,
+		
+      }
+    })
+	);
+	
+map.addObject(
+  new H.map.Polygon(lineString2, {
       style: {
         fillColor: 'rgba(255, 255, 255, 0.0)',
         strokeColor: 'red',
