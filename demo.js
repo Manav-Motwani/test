@@ -59,6 +59,51 @@ function addPolygonToMap(map) {
 			lineString2.pushPoint({ lng: 73.15025055444204, lat : 19.22892292518506});
 			lineString2.pushPoint({ lng: 73.15202730276384, lat : 19.22858220035955});
 	
+	const lineString3 = new H.geo.LineString();
+	
+			lineString3.pushPoint({ lng: 73.15813265938277, lat : 19.21212866945763});
+			lineString3.pushPoint({ lng: 73.15958690990362, lat : 19.21224546482939});
+			lineString3.pushPoint({ lng: 73.16005011501218, lat : 19.21280167851558});
+			lineString3.pushPoint({ lng: 73.1597159445148,  lat : 19.2134053554291});
+			lineString3.pushPoint({ lng: 73.1593454793931,  lat : 19.21394061801702});
+			lineString3.pushPoint({ lng: 73.15845804451345, lat : 19.21384935328623});
+			lineString3.pushPoint({ lng: 73.15764066909591, lat : 19.21368312743326});
+			lineString3.pushPoint({ lng: 73.15708985194208, lat : 19.21289497702861});
+			lineString3.pushPoint({ lng: 73.15813265938277, lat : 19.21212866945763});
+			
+	const lineString4 = new H.geo.LineString();
+			
+			lineString4.pushPoint({ lng: 73.16448710864351, lat : 19.22325274632739});
+			lineString4.pushPoint({ lng: 73.16498911771684, lat : 19.22334653345207});
+			lineString4.pushPoint({ lng: 73.16517576524991, lat : 19.22363468489058});
+			lineString4.pushPoint({ lng: 73.16567713839495, lat : 19.2238415018918});
+			lineString4.pushPoint({ lng: 73.16611104039771, lat : 19.22449341060473});
+			lineString4.pushPoint({ lng: 73.16420416260536, lat : 19.22540432553486});
+			lineString4.pushPoint({ lng: 73.16416737247631, lat : 19.22386494272756});
+			lineString4.pushPoint({ lng: 73.16427345117759, lat : 19.22316761740996});
+			lineString4.pushPoint({ lng: 73.16448710864351, lat : 19.22325274632739});
+			
+	const lineString5 = new H.geo.LineString();
+			
+			lineString5.pushPoint({ lng: 73.16447441892494, lat : 19.20948579030402});
+			lineString5.pushPoint({ lng: 73.16532279838249, lat : 19.20826779287464});
+			lineString5.pushPoint({ lng: 73.16606448786136, lat : 19.20885831250565});
+			lineString5.pushPoint({ lng: 73.16647596920258, lat : 19.20980207400065});
+			lineString5.pushPoint({ lng: 73.16573092770726, lat : 19.21070377192785});
+			lineString5.pushPoint({ lng: 73.16474506041909, lat : 19.21106888648927});
+			lineString5.pushPoint({ lng: 73.16421886289402, lat : 19.20984312463582});
+			lineString5.pushPoint({ lng: 73.16447441892494, lat : 19.20948579030402});
+
+	const lineString6 = new H.geo.LineString();
+		
+			lineString6.pushPoint({ lng: 73.16493313649559, lat : 19.21499163911191});
+			lineString6.pushPoint({ lng: 73.16560284672789, lat : 19.2134636696445});
+			lineString6.pushPoint({ lng: 73.16957062277621, lat : 19.21273722372376});
+			lineString6.pushPoint({ lng: 73.16970870671165, lat : 19.21427693813431});
+			lineString6.pushPoint({ lng: 73.16937581428846, lat : 19.21586301662384});
+			lineString6.pushPoint({ lng: 73.16634831555263, lat : 19.21597236330131});
+			lineString6.pushPoint({ lng: 73.16493313649559, lat : 19.21499163911191});
+	
 
   map.addObject(
     
@@ -75,7 +120,7 @@ function addPolygonToMap(map) {
   map.addObject(
   new H.map.Polygon(lineString, {
       style: {
-        fillColor: 'rgba(255, 255, 255, 0.0)',
+        fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
         lineWidth: 5,
 		
@@ -86,7 +131,51 @@ function addPolygonToMap(map) {
 map.addObject(
   new H.map.Polygon(lineString2, {
       style: {
-        fillColor: 'rgba(255, 255, 255, 0.0)',
+        fillColor: 'rgba(255, 0, 0, 0.1)',
+        strokeColor: 'red',
+        lineWidth: 5,
+		
+      }
+    })
+	);
+
+map.addObject(
+  new H.map.Polygon(lineString3, {
+      style: {
+        fillColor: 'rgba(255, 0, 0, 0.1)',
+        strokeColor: 'red',
+        lineWidth: 5,
+		
+      }
+    })
+	);
+
+map.addObject(
+  new H.map.Polygon(lineString4, {
+      style: {
+        fillColor: 'rgba(255, 0, 0, 0.1)',
+        strokeColor: 'red',
+        lineWidth: 5,
+		
+      }
+    })
+	);
+
+map.addObject(
+  new H.map.Polygon(lineString5, {
+      style: {
+        fillColor: 'rgba(255, 0, 0, 0.1)',
+        strokeColor: 'red',
+        lineWidth: 5,
+		
+      }
+    })
+	);
+	
+map.addObject(
+  new H.map.Polygon(lineString6, {
+      style: {
+        fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
         lineWidth: 5,
 		
