@@ -122,7 +122,7 @@ function addPolygonToMap(map) {
       style: {
         fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
-        lineWidth: 5,
+        lineWidth: 3,
 		
       }
     })
@@ -133,7 +133,7 @@ map.addObject(
       style: {
         fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
-        lineWidth: 5,
+        lineWidth: 3,
 		
       }
     })
@@ -144,7 +144,7 @@ map.addObject(
       style: {
         fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
-        lineWidth: 5,
+        lineWidth: 3,
 		
       }
     })
@@ -155,7 +155,7 @@ map.addObject(
       style: {
         fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
-        lineWidth: 5,
+        lineWidth: 3,
 		
       }
     })
@@ -166,7 +166,7 @@ map.addObject(
       style: {
         fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
-        lineWidth: 5,
+        lineWidth: 3,
 		
       }
     })
@@ -177,7 +177,7 @@ map.addObject(
       style: {
         fillColor: 'rgba(255, 0, 0, 0.1)',
         strokeColor: 'red',
-        lineWidth: 5,
+        lineWidth: 3,
 		
       }
     })
